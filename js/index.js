@@ -12,4 +12,5 @@ $.getJSON(url, function(response){
       {'data' : 'reporting_period'},
     ]
   });
+});
 })
