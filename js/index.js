@@ -1,3 +1,4 @@
+$(document).ready(function(){
 var url = 'https://raw.githubusercontent.com/danwainwright/Flightdelays2/master/convertcsv%20(1).json';
 $.getJSON(url, function(response){  
   $('#flights').DataTable({
